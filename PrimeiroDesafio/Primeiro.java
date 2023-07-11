@@ -25,8 +25,8 @@ public class Primeiro {
 		System.out.println("Digite a quantidade de Linhas: ");
 		int N = leia.nextInt();
 
-		while (N <= 0 || N > 10000) {
-			System.out.println("O número de linhas precisa estar entre 1 e 10.000. Insira novamente: ");
+		while (N <= 1 || N > 10000) {
+			System.out.println("O número de linhas precisa estar entre 1 exclusive e 10.000 inclusive. Insira novamente: ");
 			N = leia.nextInt();
 		}
 
